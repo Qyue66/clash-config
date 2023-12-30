@@ -1,13 +1,9 @@
 [custom]
 ;解决DNS泄露，无分流群组
-ruleset=DIRECT,[]GEOIP,cn,no-resolve
 ruleset=DIRECT,[]GEOSITE,private
 ruleset=DIRECT,[]GEOSITE,cn
 ruleset=DIRECT,[]GEOSITE,apple-cn
-ruleset=节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-ruleset=节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=节点选择,[]GEOSITE,google
-ruleset=节点选择,[]GEOSITE,geolocation-!cn
+ruleset=DIRECT,[]GEOIP,cn,no-resolve
 ruleset=节点选择,[]FINAL
 
 custom_proxy_group=节点选择`select`[]自动选择`[]DIRECT`.*
