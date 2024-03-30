@@ -1,7 +1,5 @@
 在&config=添加以下网址
-https://gist.githubusercontent.com/Qyue66/4d115797cbfb28159eb6912daf8acb5e/raw/910ae53b721b6745014f6f0ce670f2ae138b092d/Solve%2520dns%2520pollution%2520for%2520clash
+https%3A%2F%2Fraw.githubusercontent.com%2FQyue66%2Fclash-config%2Fmain%2Fmyconf.ini
 
-https://raw.githubusercontent.com/Qyue66/dns-config/main/geomod-config
-
-https://raw.githubusercontent.com/Qyue66/dns-config/main/myconf.ini
+https://raw.githubusercontent.com/Qyue66/clash-config/main/myconf.ini
 或者进入myconf.ini使用raw模式复制网址再按照上面使用
